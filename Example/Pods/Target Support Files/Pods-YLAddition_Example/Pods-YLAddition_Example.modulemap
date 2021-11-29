@@ -1,0 +1,6 @@
+framework module Pods_YLAddition_Example {
+  umbrella header "Pods-YLAddition_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

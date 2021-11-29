@@ -7,12 +7,16 @@
 //
 
 #import "YLAppDelegate.h"
+#import <YLAddition/YLAdditionHeader.h>
+
+
 
 @implementation YLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [YLAudioPlayer playMusic:@"xxxx"];
     return YES;
 }
 

@@ -1,0 +1,16 @@
+PODS:
+  - YLAddition (0.1.0)
+
+DEPENDENCIES:
+  - YLAddition (from `../`)
+
+EXTERNAL SOURCES:
+  YLAddition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLAddition: 2f7c82ab58e749f6929c875ec2577b19aa5d6d78
+
+PODFILE CHECKSUM: f4dde293e4495bcc5ad83b7ad4b80f58ebb752af
+
+COCOAPODS: 1.9.1

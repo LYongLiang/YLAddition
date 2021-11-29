@@ -1,0 +1,6 @@
+framework module YLAddition {
+  umbrella header "YLAddition-umbrella.h"
+
+  export *
+  module * { export * }
+}

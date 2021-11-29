@@ -28,7 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/LYongLiang/YLAddition.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
+  s.static_framework = true
 
   s.source_files = 'YLAddition/Classes/**/*'
   
@@ -36,7 +37,7 @@ TODO: Add long description of the pod here.
   #   'YLAddition' => ['YLAddition/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'Pod/Classes/YLAdditionHeader.h'
+   s.frameworks = 'UIKit', 'AVFoundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
