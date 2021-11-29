@@ -22,7 +22,7 @@ pod 'YLAddition'
 
 ## Author
 
-LYongLiang, liangyongliang@xdf.cn
+LYongLiang, liangyl0515@163.com
 
 ## License
 
